@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Отчёты от Hotel Advisors</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    @@include('blocks/header.html')
+    <section class="intro-analitic intro-stats">
+        <img src="img/intro-analitic.png" alt="" class="bg-intro-analitic">
+        <div class="wrapp-content-intro-analitic">
+            <div class="container">
+                <div class="breadcrumbs">
+                    <a href="/">
+                        <img src="img/logo-mini-bread.svg" alt="">
+                    </a>
+                    <span>/</span>
+                    <p>Отчёты от Hotel Advisors</p>
+                </div>
+                <div class="wrapp-intro-stats">
+                    <div class="content-intro-analitic">
+                        <img src="img/pulse-analitic.svg" alt="" class="pulse-analitic">
+                        <h1>Статистические отчеты по ключевым операционным показателям отелей</h1>
+                        <button class="button button-intro-stats open-popup">Связаться</button>
+                    </div>
+                    <div class="filosof-intro-stats">
+                        <svg width="24" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M23.2381 3.59477C21.3757 4.0305 19.8307 4.96732 18.6032 6.40523C17.3757 7.84314 16.7619 9.47713 16.7619 11.3072C17.2698 10.61 18.1376 10.2614 19.3651 10.2614C20.6772 10.2614 21.7778 10.7407 22.6667 11.6993C23.5556 12.658 24 13.8344 24 15.2288C24 16.5795 23.5132 17.7124 22.5397 18.6275C21.6085 19.5425 20.4021 20 18.9206 20C16.9735 20 15.4286 19.0632 14.2857 17.1895C13.4392 15.7952 13.0159 14.0959 13.0159 12.0915C13.0159 9.56427 13.8413 7.1024 15.4921 4.70588C17.1852 2.30937 19.1958 0.740741 21.5238 0L23.2381 3.59477ZM10.2222 3.59477C8.35979 4.0305 6.81482 4.96732 5.5873 6.40523C4.35979 7.84314 3.74603 9.47713 3.74603 11.3072C4.25397 10.61 5.12169 10.2614 6.34921 10.2614C7.66138 10.2614 8.76191 10.7407 9.65079 11.6993C10.5397 12.658 10.9841 13.8344 10.9841 15.2288C10.9841 16.5795 10.4974 17.7124 9.52381 18.6275C8.59259 19.5425 7.38624 20 5.90476 20C3.95767 20 2.4127 19.0632 1.26984 17.1895C0.42328 15.7952 0 14.0959 0 12.0915C0 9.56427 0.825397 7.1024 2.47619 4.70588C4.16931 2.30937 6.17989 0.740741 8.50794 0L10.2222 3.59477Z"
+                                fill="white" fill-opacity="0.25" />
+                        </svg>
+                        <p class="title-filosof">
+                            Философия команды Hotel Advisors гласит:
+                        </p>
+                        <p class="desc-filosof">
+                            управляем отелем, как бизнесом: все решения принимаются на основе данных
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <section class="advant-report section-margin">
+            <h2>Отчеты могут быть предоставлены по тем городам или регионам, где отельеры используют в работе наш инструмент
+                бенчмаркинга «Аналитика гостиничного рынка».</h2>
+            <div class="wrapp-advant-report">
+                <div class="item-advant-report">
+                    <img src="img/advant-report-1.png" alt="" class="image-advant-report">
+                    <h3>ДОСТОВЕРНОСТЬ ИНФОРМАЦИИ</h3>
+                    <p>
+                        Мы получаем данные от самих отелей с помощью нашего инструмента «Аналитика гостиничного рынка».
+                    </p>
+                </div>
+                <div class="item-advant-report">
+                    <img src="img/advant-report-2.png" alt="" class="image-advant-report">
+                    <h3>КОНФИДЕНЦИАЛЬНОСТЬ</h3>
+                    <p>
+                        Мы соблюдаем конфиденциальность информации, и предоставляем только усредненные данные по определенным
+                        категориям отелей.
+                        Данные по конкретным отелям мы не разглашаем.
+                    </p>
+                </div>
+                <div class="item-advant-report">
+                    <img src="img/advant-report-3.png" alt="" class="image-advant-report">
+                    <h3>ЭКСПЕРТНОСТЬ</h3>
+                    <p>
+                        Все отчеты составляют наши эксперты с многолетним опытом в гостиничном бизнесе.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="order-report section-margin">
+        <div class="container">
+            <h2>Заказать отчет от Hotel Advisors</h2>
+            <div class="form-order-report">
+                <form action="">
+                    <div class="wrapp-input-form-order-report">
+                        <input type="text" placeholder="Введите ваш город">
+                        <input type="text" placeholder="Название вашего отеля или компании">
+                        <div class="rating-input">
+                            <label>Сегмент вашего отеля</label>
+                            <div class="stars">
+                                <input type="radio" id="star5" name="rating" value="5" />
+                                <label for="star5">★</label>
+                                <input type="radio" id="star4" name="rating" value="4" />
+                                <label for="star4">★</label>
+                                <input type="radio" id="star3" name="rating" value="3" />
+                                <label for="star3">★</label>
+                                <input type="radio" id="star2" name="rating" value="2" />
+                                <label for="star2">★</label>
+                                <input type="radio" id="star1" name="rating" value="1" />
+                                <label for="star1">★</label>
+                            </div>
+                        </div>
+                        <div class="period-order">
+                            <p class="title-period">Период отчетности:</p>
+                            <div class="period-block">
+                                <span class="label">от</span>
+                                <input type="text" placeholder="24.08.25">
+                            </div>
+                            <div class="period-block">
+                                <span class="label">до</span>
+                                <input type="text" placeholder="24.08.25">
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Для чего нужны данные?">
+                        
+                        <input type="email" placeholder="Ваша эектронная почта " class="email-order-report">
+                        <input type="tel" name="" id="" class="phone" placeholder="Ваш телефон">
+                        <button type="submit" class="button button-order-report open-popup">
+                            Заказать отчёт
+                        </button>
+                        <p class="privacy-text-order-report">
+                            Нажимая кнопку “Заказать отчет” вы соглашаетесь с <a href="" target="_blank">политикой конфиденциальности</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <img src="img/map-order-report.svg" alt="" class="map-order-report">
+    </section>
+    <div class="container">
+        <section class="how-report section-margin">
+            <h2>Для кого отчеты?</h2>
+            <div class="wrapp-hwo-report">
+                <div class="item-hwo-report">
+                    <img src="img/how-report-1.svg" alt="" class="icon-how-report">
+                    <div class="text-how-report">
+                        <p class="title-who-report">Для отельеров</p>
+                        <p class="desc-who-report">
+                            Есть много практических кейсов, как в работе отелям, УК помогает применение данных инструмента аналитики Hotel Advisors.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-hwo-report">
+                    <img src="img/how-report-2.svg" alt="" class="icon-how-report">
+                    <div class="text-how-report">
+                        <p class="title-who-report">Для городских комитетов</p>
+                        <p class="desc-who-report">
+                            Понимание общей динамики ключевых показателей отелей города: ADR, загрузка, REVPAR. Оперативная информация для
+                            отчетности и оценки по результатам государственных праздников, международных форумов, чемпионатов, крупных локальных
+                            событий
+                        </p>
+                    </div>
+                </div>
+                <div class="item-hwo-report">
+                    <img src="img/how-report-3.svg" alt="" class="icon-how-report">
+                    <div class="text-how-report">
+                        <p class="title-who-report">Инвесторами и девелепорами</p>
+                        <p class="desc-who-report">
+                            Использование данных бенчмаркинга для обоснования открытия/ строительства отелей;
+                            Использование информации для составления прогнозов, оценок и бюджетов
+                        </p>
+                    </div>
+                </div>
+                <div class="item-hwo-report">
+                    <img src="img/how-report-4.svg" alt="" class="icon-how-report">
+                    <div class="text-how-report">
+                        <p class="title-who-report">Применение финансовыми организациями (банками)</p>
+                        <p class="desc-who-report">
+                            Использование данных для проверки финансовых моделей проектов и обоснования выдачи кредитов <br>под проекты
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="structur-report section-margin">
+        <div class="container">
+            <h2>Структура наших отчётов</h2>
+            <div class="wrapp-structur-report">
+                <div class="item-structur-repor">
+                    <img src="img/icon-structure-1.svg" alt="" class="icon-structur">
+                    <div class="content-structur-report">
+                        <h3>ОСНОВНЫЕ ХАРАКТЕРИСТИКИ ВЫБОРКИ ОТЕЛЕЙ</h3>
+                        <p>
+                            Количество отелей, номерной фонд, основные операционные показатели, расположение гостиниц на карте города.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-structur-repor">
+                    <img src="img/icon-structure-2.svg" alt="" class="icon-structur">
+                    <div class="content-structur-report">
+                        <h3>СОПОСТАВЛЕНИЕ КЛЮЧЕВЫХ ОПЕРАЦИОННЫХ МЕТРИК</h3>
+                        <p>
+                            ADR, загрузка, REVPAR. Возможно фильтрация данных по годам, кварталам, месяцам, дням; возможность выбора отдельных
+                            периодов.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-structur-repor">
+                    <img src="img/icon-structure-3.svg" alt="" class="icon-structur">
+                    <div class="content-structur-report">
+                        <h3>ДЕТАЛЬНЫЙ ОБЗОР КАЖДОГО ИЗ ОПЕРАЦИОННЫХ ПОКАЗАТЕЛЕЙ</h3>
+                        <p>
+                            Разбивка по номерному фонду, дням недели, а также графическое и табличное представление значений показателя за выбранный
+                            период.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="button button-structur-present">
+                Посмотреть презентацию
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1_193)">
+                        <path
+                            d="M19.0164 0.737793H0.983594C0.44125 0.737793 0 1.17904 0 1.72143V2.70502C0 3.24736 0.44125 3.68865 0.983594 3.68865H1.31145V14.6722C1.31145 14.8533 1.45824 15.0001 1.6393 15.0001H7.40516L4.03043 18.3749C3.90238 18.5029 3.90238 18.7105 4.03043 18.8385C4.09445 18.9026 4.17836 18.9345 4.26227 18.9345C4.34617 18.9345 4.43008 18.9026 4.4941 18.8385L8.33254 15.0001H9.67215V18.9345C9.67215 19.1156 9.81894 19.2624 10 19.2624C10.1811 19.2624 10.3279 19.1156 10.3279 18.9345V15.0001H11.6675L15.5059 18.8385C15.5699 18.9026 15.6538 18.9345 15.7377 18.9345C15.8216 18.9345 15.9055 18.9026 15.9695 18.8385C16.0976 18.7105 16.0976 18.5029 15.9695 18.3749L12.5948 15.0001H18.3607C18.5417 15.0001 18.6885 14.8533 18.6885 14.6722V3.68865H19.0164C19.5588 3.68865 20 3.2474 20 2.70502V1.72143C20 1.17904 19.5588 0.737793 19.0164 0.737793ZM18.0328 14.3444H1.96719V3.68865H18.0328V14.3444ZM19.3443 2.70502C19.3443 2.8858 19.1972 3.03287 19.0164 3.03287H0.983594C0.802813 3.03287 0.655703 2.8858 0.655703 2.70502V1.72143C0.655703 1.54064 0.802813 1.39357 0.983594 1.39357H19.0164C19.1972 1.39357 19.3443 1.54064 19.3443 1.72143V2.70502Z"
+                            fill="white" />
+                        <path
+                            d="M7.04916 12.8691C9.21861 12.8691 10.9836 11.1042 10.9836 8.9347C10.9836 6.76524 9.21861 5.00024 7.04916 5.00024C4.87971 5.00024 3.11475 6.76521 3.11475 8.9347C3.11471 11.1041 4.87971 12.8691 7.04916 12.8691ZM10.3114 8.60681H7.37701V5.67243C8.92365 5.82673 10.1571 7.06017 10.3114 8.60681ZM6.72131 5.67243V8.9347C6.72131 9.11575 6.86811 9.26255 7.04916 9.26255H10.3114C10.1464 10.917 8.74639 12.2134 7.04916 12.2134C5.24127 12.2134 3.77045 10.7425 3.77045 8.93466C3.77045 7.23747 5.06678 5.83747 6.72131 5.67243Z"
+                            fill="white" />
+                        <path
+                            d="M12.6228 6.47553H16.5572C16.7382 6.47553 16.885 6.32873 16.885 6.14768C16.885 5.96662 16.7382 5.81982 16.5572 5.81982H12.6228C12.4417 5.81982 12.2949 5.96662 12.2949 6.14768C12.2949 6.32873 12.4417 6.47553 12.6228 6.47553Z"
+                            fill="white" />
+                        <path
+                            d="M12.6228 9.26239H16.5572C16.7382 9.26239 16.885 9.1156 16.885 8.93454C16.885 8.75349 16.7382 8.60669 16.5572 8.60669H12.6228C12.4417 8.60669 12.2949 8.75349 12.2949 8.93454C12.2949 9.1156 12.4417 9.26239 12.6228 9.26239Z"
+                            fill="white" />
+                        <path
+                            d="M12.6228 12.0493H16.5572C16.7382 12.0493 16.885 11.9025 16.885 11.7214C16.885 11.5404 16.7382 11.3936 16.5572 11.3936H12.6228C12.4417 11.3936 12.2949 11.5404 12.2949 11.7214C12.2949 11.9025 12.4417 12.0493 12.6228 12.0493Z"
+                            fill="white" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_1_193">
+                            <rect width="20" height="20" fill="white" />
+                        </clipPath>
+                    </defs>
+                </svg>
+
+            </a>
+        </div>
+    </section>
+    <div class="container">
+        
+        <section class="consultation-service section-margin">
+            <div class="text-consultation-service">
+                <img src="img/logo-consultation-service.svg" alt="">
+                <h2>Увеличиваем выручку и прибыль отеля</h2>
+                <p>Мы ответим на все ваши вопросы, будем рады быть полезными в создании эффективной системы управления доходами
+                    вашего
+                    отеля.</p>
+            </div>
+            <div class="form-consultation">
+                <form action="">
+                    <div class="wrapp-form-consultation">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="tel" class="phone" name="" id="" placeholder="+7 (000) 000 00 00">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <div class="checkbox">
+                            <input type="checkbox" name="" id="">
+                            <span class="custom-check">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.441895 3.77474L2.52523 5.85807L7.94189 0.441406" stroke="white"
+                                        stroke-width="1.25" />
+                                </svg>
+                            </span>
+                            <p>Нажимая на кнопку, я даю согласие на обработку персональных данных и принимаю <a href="">Политику
+                                    конфиденциальности</a></p>
+                        </div>
+                        <button type="submit" class="button button-submit-consultation">
+                            Получить консультацию
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.5 8L3.5 8M11.5 8L7.94445 12M11.5 8L7.94444 4" stroke="#7C161C" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <img src="img/phone-bg.png" alt="" class="phone-consultation">
+        </section>
+        <section class="faq section-margin">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        ЧТО ТАКОЕ ОТЕЛЬНЫЙ БЕНЧМАРКИНГ?
+                        <span class="icon"></span>
+                    </button>
+        
+                    <div class="accordion-content">
+                        <p>
+                            Программное обеспечение распространяется в виде интернет-сервиса, специальные действия по
+                            установке ПО на стороне пользователя не требуются. Наше программное обеспечение зарегистрировано
+                            в Роспатенте. Свидетельство можно посмотреть ниже.
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        НУЖНО ЛИ УСТАНАВЛИВАТЬ ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ ДЛЯ ИСПОЛЬЗОВАНИЯ СЕРВИСА?
+                        <span class="icon"></span>
+                    </button>
+        
+                    <div class="accordion-content">
+                        <p>Тут текст второго ответа...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="consultation section-margin">
+            <div class="content-cosultation">
+                <img src="img/logo-consultation.svg" alt="" class="logo-consultation">
+                <h2>Получите консультацию специалиста</h2>
+                <p>Мы ответим на все ваши вопросы, будем рады быть полезными в создании эффективной системы управления доходами
+                    вашего
+                    отеля.</p>
+            </div>
+            <div class="form-consultation">
+                <form action="">
+                    <div class="wrapp-form-consultation">
+                        <input type="text" placeholder="Ваше имя">
+                        <input type="tel" class="phone" name="" id="" placeholder="+7 (000) 000 00 00">
+                        <input type="text" placeholder="Ваш E-mail">
+                        <div class="checkbox">
+                            <input type="checkbox" name="" id="">
+                            <span class="custom-check">
+                                <svg width="9" height="7" viewBox="0 0 9 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.441895 3.77474L2.52523 5.85807L7.94189 0.441406" stroke="white"
+                                        stroke-width="1.25" />
+                                </svg>
+                            </span>
+                            <p>Нажимая на кнопку, я даю согласие на обработку персональных данных и принимаю <a href="">Политику
+                                    конфиденциальности</a></p>
+                        </div>
+                        <button type="submit" class="button button-submit-consultation">
+                            Отправить
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.5 8L3.5 8M11.5 8L7.94445 12M11.5 8L7.94444 4" stroke="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <img src="img/bg-consultation.png" alt="" class="bg-consultation">
+        </section>
+    </div>
+    @@include('blocks/footer.html') 
+    <script src="./js/index.bundle.js"></script>
+</body>
+        
+</html>

@@ -1,0 +1,318 @@
+.intro-about{
+    position: relative;
+    .breadcrumbs{
+        span{
+            color: #000;
+        }
+        p{
+            color: rgba(25, 25, 25, 0.35);
+        }
+        a{
+            color: #000;
+            img{
+                filter: brightness(0);
+            }
+        }
+
+    }
+    
+}
+.bg-intro-about{
+    width: 100%;
+    height: 610px;
+    object-position: center;
+    object-fit: cover;
+    display: block;
+}
+.wrapp-about-intro{
+    position: absolute;
+    left: 0;
+    top: 20px;
+    width: 100%;
+    z-index: 2;
+    .container{
+        position: relative;
+        height: 100%;
+    }
+    &::after{
+        content: '';
+        width: 100%;
+        height: 240px;
+        background: linear-gradient(180deg, rgba(236, 236, 243, 0) 10.93%, rgba(236, 236, 243, 0.71) 70.88%, #ECECF3 100%);
+        display: block;
+        position: absolute;
+        bottom: -25px;
+        left: 0;
+        z-index: 0;
+    }
+}
+.content-about-intro{
+    max-width: 938px;
+    margin-top: 49px;
+    p{
+        margin-top: 16px;
+    }
+}
+.button-about-intro{
+    margin-top: 48px;
+}
+.advant-about-intro{
+    display: flex;
+    gap: 76.5px;
+    margin-top: 90px;
+    position: relative;
+    z-index: 5;
+}
+.image-decor-about-intro{
+    position: absolute;
+    right: 0;
+    bottom: -25px;
+}
+.wrapp-content-about-intro{
+    position: relative;
+    z-index: 1;
+}
+.item-advant-intro-about{
+    h3{
+        font-size: 52px;
+    }
+    p{
+        font-size: 14px;
+        color: rgba(25, 25, 25, 1);
+        margin-top: 17px;
+    }
+}
+.text-about{
+    padding: 120px 0;
+    border-radius: 52px;
+    background-color: rgba(244, 244, 248, 1);
+}
+.wrapp-about-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+.info-text-about{
+    width: 100%;
+    max-width: 565px;
+}
+.image-text-about{
+    width: 100%;
+    max-width: 554px;
+    border-radius: 24px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+}
+.desc-info-text-about{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    p{
+        font-size: 14px;
+    }
+}
+.qoute-about{
+    font-size: 32px;
+    text-align: center;
+    position: relative;
+    p{
+        max-width: 1194px;
+        margin: 0 auto;
+        color: rgba(25, 25, 25, 1);
+    }
+}
+.top-decor-about{
+    position: absolute;
+    left: 90px;
+    top: -20px;
+}
+.bottom-decor-about{
+    position: absolute;
+    right: 360px;
+    bottom: -10px;
+}
+.team-about{
+    h2{
+        text-align: center;
+    }
+}
+.wrapp-team-about{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-top: 48px;
+}
+.image-team-about{
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.item-about-team{
+    width: calc((100% - 48px * 3)/4);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+    h3{
+        margin-top: 8px;
+    }
+    a{
+        color: rgba(124, 22, 28, 1);
+        font-size: 14px;
+    }
+}
+@media(max-width: 1280px){
+    .bg-intro-about{
+        height: 856px;
+    }
+    .content-about-intro{
+        text-align: center;
+        h1{
+            text-align: center;
+            max-width: 656px;
+            margin: 0 auto;
+        }
+    }
+    .button-about-intro{
+        margin: 32px auto 0 auto;
+    }
+    .advant-about-intro{
+        gap: 32px;
+    }
+    .item-advant-intro-about{
+        width: calc((100% - 32px * 2)/3);
+        text-align: center;
+        h3{
+            font-size: 40px;
+            line-height: 83%;
+        }
+
+    }
+    .content-about-intro{
+        margin-top: 290px;
+    }
+    .image-decor-about-intro{
+        right: auto;
+        left: 50%;
+        bottom: auto;
+        top: -67%;
+        transform: translate(-50%, 0);
+        width: 217px;
+    }
+    .wrapp-about-intro::after{
+        bottom: auto;
+        top: 85px;
+    }
+    .image-text-about{
+        max-width: 268px;
+        height: 268px;
+    }
+    .wrapp-about-text{
+        align-items: flex-start;
+    }
+    .text-about{
+        padding: 48px 0;
+        border-radius: 24px;
+    }
+    .qoute-about{
+        font-size: 24px;
+    }
+    .top-decor-about{
+        left: 0;
+    }
+    .bottom-decor-about{
+        right: 0;
+        bottom: -60%;
+    }
+    .wrapp-team-about{
+        margin-top: 32px;
+        gap: 32px 48px;
+    }
+    .item-about-team{
+        width: calc((100%  - 48px *2)/3);
+    }
+    .item-about-team h3{
+        font-size: 16px;
+    }
+    .item-about-team p{
+        font-size: 14px;
+    }
+}
+@media(max-width: 799px){
+    .image-decor-about-intro{
+        top: -52%;
+    }
+    .button-about-intro{
+        width: 100%;
+        justify-content: center;
+    }
+    .advant-about-intro{
+        margin-top: 80px;
+        flex-direction: column;
+        gap: 24px;
+        background-color: #fff;
+        padding: 32px;
+        box-sizing: border-box;
+        border-radius: 24px;
+    }
+    .item-advant-intro-about{
+        display: flex;
+        gap: 17px;
+        width: 100%;
+        text-align: left;
+        h3{
+            flex-shrink: 0;
+            width: 100px;
+            font-size: 32px;
+        }
+        p{
+            margin: 0;
+            font-size: 12px;
+        }
+    }
+    .bg-intro-about{
+        height: 965px;
+    }
+    .text-about{
+        margin-top: 60px;
+    }
+    .wrapp-about-text{
+        flex-direction: column-reverse;
+    }
+    .image-text-about{
+        max-width: 100%;
+        height: 355px;
+    }
+    .info-text-about{
+        max-width: 100%;
+    }
+    .qoute-about{
+        font-size: 16px;
+    }
+    .top-decor-about{
+        width: 30px;
+    }
+    .bottom-decor-about{
+        width: 30px;
+        bottom: -24%;
+    }
+    .wrapp-team-about{
+        gap: 24px;
+    }
+    .item-about-team{
+        width: calc(50% - 12px);
+    }
+    .image-team-about{
+        width: 64px;
+        height: 64px;
+    }
+    .item-about-team a, .item-about-team p{
+        font-size: 12px;
+    }
+}

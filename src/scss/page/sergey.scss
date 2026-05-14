@@ -1,0 +1,348 @@
+.breadcrumbs{
+    &.black{
+        img{
+            filter: brightness(0);
+        }
+        a{
+            color: #000;
+        }
+        p{
+            color: rgba(25, 25, 25, 0.35);
+        }
+        span{
+            color: #000;
+        }
+    }
+}
+.intro-sergey{
+    margin-top: 20px;
+}
+.wrapp-intro-sergey{
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+.info-intro-sergey{
+    width: 100%;
+    max-width: 750px;
+}
+.text-info-intro{
+    margin-top: 110px;
+    p{
+        margin-top: 16px;
+    }
+}
+.button-intro-sergey{
+    margin-top: 48px;
+}
+.sergey-info{
+    padding: 120px 0;
+    background-color: rgba(244, 244, 248, 1);
+    border-radius: 52px;
+}
+.wrapp-sergey-info{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+.image-sergey-info{
+    width: 100%;
+    max-width: 554px;
+    border-radius: 24px;
+}
+.text-sergey-info{
+    p{
+        margin-top: 33px;
+        font-size: 14px;
+    }
+
+}
+.arrow-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 16px;
+    li{
+        list-style-type: none;
+        padding-left: 24px;
+        position: relative;
+        font-size: 14px;
+        &::before{
+            content: '';
+            background-image: url('/img/arrow-ul-li.svg');
+            width: 16px;
+            height: 16px;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translate(0, -50%);
+            
+        }
+    }
+}
+.wrapp-project-sergey{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+.item-project-sergey{
+    width: calc(50% - 12px);
+    background-color: rgba(244, 244, 248, 1);
+    padding: 24px;
+    border-radius: 24px;
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 267px;
+    &::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(180deg, rgba(102, 102, 102, 0) 0%, #000000 100%);
+        border-radius: 12px;
+    }
+}
+.image-project-sergey{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+}
+.sergey-project h2{
+    text-align: center;
+}
+.title-project-sergey{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: -0.03em;
+    margin-top: 16px;
+    text-transform: uppercase;
+    font-family: "DinPro";
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.button-project-sergey{
+    margin-top: 16px;
+    position: relative;
+    z-index: 1;
+}
+.wrapp-podcast-sergey{
+    padding: 32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: 1px solid rgba(209, 209, 209, 1);
+}
+.info-podcast-sergey{
+    display: flex;
+    align-items: center;
+    gap: 46px;
+}
+.image-podcast-sergey{
+    width: 100%;
+    max-width: 260px;
+    height: 260px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 14px;
+}
+
+.wrapp-text-info-podcast{
+    h2{
+        font-size: 32px;
+    }
+}
+.desc-podcast{
+    margin-top: 20px;
+    font-size: 14px;
+}
+.label-podcast{
+    color: rgba(124, 22, 28, 1);
+    font-size: 14px;
+    margin-top: 20px;
+}
+.wrapp-podcast{
+    margin-top: 46px;
+    iframe{
+        border-radius: 9px;
+    }
+}
+.interview-sergey{
+    h2{
+        text-align: center;
+    }
+}
+
+.wrapp-swiper-itreview{
+    margin-top: 48px;
+    position: relative;
+}
+.prev-interviews{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+.next-interviews{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    z-index: 1;
+}
+.swiper-interview{
+    max-width: 95%;
+    margin: 0 auto;
+}
+.item-interview{
+    display: block;
+    transition: all .3s linear;
+    p{
+        margin-top: 14px;
+        color: #000;
+    }
+}
+.wrapp-image-interview{
+    position: relative;
+    &::after{
+        content: '';
+        background-color: rgba(0, 0, 0, 0.3);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: 16px;
+    }
+    svg{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%);
+        z-index: 1;
+    }
+}
+.preloader-intreview{
+    width: 100%;
+    height: 371px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 16px;
+}
+@media(max-width: 1280px){
+    .wrapp-intro-sergey{
+        flex-direction: column-reverse;
+        gap: 32px;
+        align-items: center;
+        text-align: center;
+    }
+    .image-sergey-intro{
+        max-width: 250px;
+    }
+    .text-info-intro{
+        margin: 0;
+    }
+    .button-intro-sergey{
+        margin: 32px auto 0 auto;
+    }
+    .wrapp-sergey-info{
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    .image-sergey-info{
+        max-width: 268px;
+        height: 268px;
+        object-fit: cover;
+    }
+    .sergey-info{
+        padding: 48px 0;
+        border-radius: 24px;
+    }
+    .title-project-sergey{
+        font-size: 16px;
+    }
+    .wrapp-text-info-podcast h2{
+        font-size: 24px;
+    }
+    .info-podcast-sergey{
+        gap: 32px;
+    }
+    .wrapp-interview{
+        flex-direction: column;
+
+    }
+    .item-interview{
+        width: 100%
+    }
+   .wrapp-swiper-itreview{
+        margin-top: 32px;
+   }
+   .swiper-interview {
+    max-width: 90%;
+   }
+}
+@media(max-width: 799px){
+    .button-intro-sergey {
+        width: 100%;
+    }
+
+    .wrapp-sergey-info {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .image-sergey-info {
+        max-width: 100%;
+        height: 355px;
+    }
+    .wrapp-project-sergey{
+        flex-direction: column;
+        gap: 12px;
+    }
+    .item-project-sergey{
+        width: 100%;
+    }
+    .info-podcast-sergey{
+        flex-direction: column;
+        gap: 32px;
+    }
+    .image-podcast-sergey{
+        max-width: 100%;
+        height: 307px;
+    }
+    .wrapp-text-info-podcast h2{
+        font-size: 20px;
+    }
+    .wrapp-podcast-sergey{
+        padding: 24px;
+    }
+    .preloader-intreview{
+        height: 220px;
+    }
+    .wrapp-podcast{
+        margin-top: 32px;
+    }
+    .wrapp-project-sergey{
+        margin-top: 32px;
+    }
+    .swiper-interview {
+        max-width: 85%;
+    }
+}

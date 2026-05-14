@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Local build output
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Caches
+.cache/
+.sass-cache/
+.eslintcache
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

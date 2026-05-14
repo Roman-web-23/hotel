@@ -1,0 +1,17 @@
+.programs-sales-managment{
+    .card-transparent-1{
+        height: 1px;
+        padding: 0;
+    }
+    .card-transparent-2{
+        height: 106px;
+    }
+    .card-transparent-3{
+        height: 68px;
+    }
+}
+.sales-managment-info-program{
+    .item-info-program{
+        width: calc((100% - 32px * 3)/4);
+    }
+}

@@ -1,0 +1,114 @@
+.consultation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 12px;
+    padding: 48px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.content-cosultation {
+    width: 100%;
+    max-width: 596px;
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.logo-consultation {
+    width: 156px;
+}
+.bg-consultation{
+    position: absolute;
+    bottom: 0;
+    right: 281px;
+}
+.form-consultation{
+    width: 100%;
+    max-width: 377px;
+    position: relative;
+    z-index: 1;
+}
+.wrapp-form-consultation{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    input{
+        width: 100%;
+        padding: 20px 16px;
+        border-radius: 12px;
+        box-sizing: border-box;
+        border: none;
+        background-color: rgba(244, 244, 248, 1);
+        &:focus-visible{
+            outline: 1px solid rgba(124, 22, 28, 0.25);
+        }
+    }
+}
+
+.checkbox{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 12px;
+
+    input{
+        display: none;
+    }
+    p{
+        font-size: 12px;
+        letter-spacing: -0.02em;
+        a{
+            color: rgba(124, 22, 28, 1);
+        }
+    }
+    &.active{
+        .custom-check{
+            background-color: rgba(124, 22, 28, 1);
+            svg{
+                opacity: 1;
+            }
+        }
+    }
+}
+.custom-check{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 20px;
+   height: 20px;
+   flex-shrink: 0;
+   border-radius: 6.67px;
+   border: 1px solid rgba(124, 22, 28, 1);
+   transition: all .3s linear;
+   cursor: pointer;
+   svg{
+        opacity: 0;
+        transition: all .3s linear;
+   }
+}
+
+.button-submit-consultation{
+    margin-top: 12px;
+}
+@media(max-width: 1280px){
+    .bg-consultation{
+        display: none;
+    }
+    .consultation{
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+    .form-consultation{
+        width: 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width: 799px){
+    .consultation{
+        padding: 24px;
+    }
+}

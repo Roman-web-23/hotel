@@ -1,0 +1,153 @@
+.intro-practicum{
+    .authors-eduaction{
+        margin-top: 176px   ;
+    }
+    .bg-intro-start-education{
+        height: 730px;
+        object-position: top;
+    }
+}
+.why-order-my{
+    h2{
+        text-align: center;
+    }
+}
+.accordion-why-order-my{
+    margin-top: 48px;
+}
+.programs-practicum{
+    h2{
+        text-align: center;
+    }
+}
+.accordion-programs-practicum{
+    max-width: 980px;
+    margin: 48px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .accordion-item{
+        border: 1px solid rgba(224, 224, 224, 1);
+    }
+    .accordion-content{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        h2{
+            font-size: 20px;
+            text-align: left;
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            li {
+                list-style-type: none;
+                font-size: 14px;
+                position: relative;
+                padding-left: 24px;
+                line-height: 140%;
+                letter-spacing: -0.02em;
+        
+                &::before {
+                    content: '';
+                    display: block;
+                    width: 16px;
+                    height: 16px;
+                    background-image: url('/img/arrow-ul-li.svg');
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    transform: translate(0, -50%);
+                }
+            }
+        }
+    }
+    .accordion-item.active .accordion-content{
+        margin-top: 32px;
+    }
+}
+.forma-programm-education{
+    display: flex;
+    flex-wrap: wrap;
+    gap:14px 32px ;
+    margin-top: 32px;
+}
+.item-forma-program{
+    width: 100%;
+    max-width: 355px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    img{
+        flex-shrink: 0;
+        display: block;
+    }
+    p{
+        font-size: 12px;
+        a{
+            color: rgba(124, 22, 28, 1);
+            text-decoration: underline;
+        }
+    }
+}
+.title-accordion-practicum-program{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    p{
+        font-size: 16px;
+        font-family: "geometria";
+        font-weight: 300;
+        line-height: 140%;
+    }
+}
+.info-program-practicum{
+    .item-info-program{
+        width: 320px;
+        &:last-child{
+            width: 174px;
+        }
+    }
+}
+@media(max-width: 1280px){
+    .accordion-programs-practicum{
+        margin-top: 32px;
+        h3{
+            font-size: 16px;
+            
+        }
+        .accordion-content h2{
+            font-size: 16px;
+        }
+    }
+    .intro-practicum{
+        .item-author-education{
+            width: 620px        ;
+        }
+        .bg-intro-start-education{
+            height: 836px;
+           
+        }
+    }
+}
+@media(max-width: 799px) {
+    .intro-practicum {
+        .item-author-education {
+            width: 100%;
+        }
+        .bg-intro-start-education {
+            height: 600px;
+        }
+    }
+    .info-program-practicum{
+        .hover-content-info-item-program {
+            width: 70vw;
+        }
+    }
+    .info-program-practicum .item-info-program{
+        width: 100% !important;
+    }
+}

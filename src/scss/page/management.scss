@@ -1,0 +1,276 @@
+.intro-managment{
+    .wrapp-content-intro-analitic{
+        top: 104px;
+    }
+    .content-intro-analitic{
+        max-width: 558px;
+    }
+}
+.text-intro-managment{
+    color: #fff;
+    margin-top: 16px;
+}
+.advant-managment{
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+    width: 100%;
+    max-width: 560px;
+    padding: 24px 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.item-adavant-managment{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: #fff;
+    max-width: 274px;
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 14px;
+    }
+}
+.how-managment{
+    h2{
+        text-align: center;
+        max-width: 662px;
+        margin: 0 auto;
+    }
+}
+.wrapp-how-managment{
+    margin-top: 48px;
+    display: flex;
+    gap: 46px;
+}
+.item-how-managment{
+    width: calc((100% - 48px * 3)/4);
+    text-align: center;
+    h3{
+        margin-top: 24px;
+    }
+    p{
+        margin-top: 8px;
+        font-size: 12px;
+    }
+}
+.image-how-managment{
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+    margin: 0 auto;
+}
+.process-managment{
+    h2{
+        text-align: center;
+    }
+}
+.wrapp-process-managment{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.item-process-managment{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(223, 223, 223, 1);
+}
+.title-item-process-managment{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    width: 100%;
+    max-width: 821px;
+    p{
+        flex-shrink: 0;
+        color: rgba(124, 22, 28, 1);
+        font-size: 32px;
+    }
+}
+.desc-process-managment{
+    width: 100%;
+    max-width: 395px;
+}
+.result-managment{
+    h2{
+        text-align: center;
+    }
+}
+.wrapp-result-managment{
+    margin-top: 48px;
+    display: flex;
+    gap: 16px;
+}
+.item-result-managment{
+    width: calc((100% - 16px * 3)/4);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+    border-radius: 12px;
+    padding: 22px;
+    box-sizing: border-box;
+    border: 1px solid rgba(224, 224, 224, 1);
+    ul{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        li{
+            list-style-type: none;
+            display: flex;
+            
+            gap: 8px;
+            font-size: 14px;
+            svg{
+                flex-shrink: 0;
+                margin-top: 8px;
+            }
+        }
+    }
+}
+.icon-resul-managmetn{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    object-position: center;
+}
+.menegment-company{
+    h2{
+        text-align: center;
+        max-width: 767px;
+        margin: 0 auto;
+        span{
+            color: rgba(124, 22, 28, 1);
+        }
+    }
+}
+.wrapp-menegment-company{
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+.item-menegment-company{
+    width: calc((100% - 24px * 2)/3);
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+@media(max-width: 1280px){
+    .intro-managment .content-intro-analitic{
+        max-width: 100%;
+        text-align: center;
+    }
+    .advant-managment{
+        max-width: 100%;
+    }
+    .title-item-process-managment{
+        max-width: 267px;
+        h3{
+            font-size: 16px;
+        }
+    }
+
+    .desc-process-managment{
+        max-width: 395px;
+        p{
+            font-size: 14px;
+        }
+    }
+    .wrapp-how-managment{
+        margin-top: 32px;
+    }
+    .wrapp-process-managment{
+        margin-top: 32px;
+    }
+    .wrapp-result-managment{
+        margin-top: 32px;
+        overflow: auto;
+        .item-result-managment{
+            flex-shrink: 0;
+            width: 315px;
+        }
+    }
+    .wrapp-menegment-company{
+        margin-top: 32px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .item-menegment-company{
+        width: 100%;
+        h3{
+            font-size: 16px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+}
+@media(max-width: 799px){
+    .intro-managment{
+        .button-intro-stats{
+            width: 100%;
+            margin-top: 16px;
+            justify-content: center;
+        }
+        .wrapp-intro-stats{
+            gap: 32px;
+        }
+    }
+    .advant-managment{
+        padding: 32px;
+        gap: 16px;
+    }
+    .item-adavant-managment{
+        max-width: 100%;
+        gap: 4px;
+        h3{
+            font-size: 20px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .wrapp-how-managment{
+        overflow: auto;
+        gap: 16px;
+    }
+    .item-how-managment{
+        width: 200px;
+        flex-shrink: 0;
+        h3{
+            margin-top: 16px;
+        }
+        p{
+            letter-spacing: -0.02em;
+        }
+    }
+    .item-process-managment{
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+    .title-item-process-managment{
+        gap: 12px;
+        max-width: 100%;
+        p{
+            font-size: 20px;
+        }
+    }
+    .desc-process-managment{
+        max-width: 100%;
+    }
+}

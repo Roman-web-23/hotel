@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "DinPro";
+    src: url("/fonts/dinpro_bold.otf") format("opentype");
+    font-weight: 700;
+}
+@font-face {
+    font-family: "DinPro_medium";
+    src: url("/fonts/dinpro_medium.otf") format("opentype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "DinPro_condensed_medium";
+    src: url("/fonts/din_pro_condensed_medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "DinPro_light";
+    src: url("/fonts/dinpro_light.otf") format("opentype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "geometria";
+    src: url("/fonts/geometria_light.otf") format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: "geometria_lightitalic";
+    src: url("/fonts/geometria_lightitalic.otf") format("opentype");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: "geometria_medium";
+    src: url("/fonts/geometria_medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "geometria_mediumitalic";
+    src: url("/fonts/geometria_mediumitalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}

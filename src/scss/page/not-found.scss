@@ -1,0 +1,79 @@
+.not-found{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    .container{
+        position: relative;
+        z-index: 2;
+    }
+    h1{
+        font-size: 50px;
+        font-family: "geometria";
+        margin-top: 48px;
+        color: #fff;
+        text-transform: none;
+        font-weight: 300;
+    }
+}
+.bg-not-found{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.before-title-not-found{
+    color: #fff;
+    
+}
+.desc-not-found{
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 20px;
+    margin-top: 13px;
+    max-width: 813px;
+}
+.button-not-found{
+    margin-top: 48px;
+    background-color: #fff !important;
+    color: #000;
+}
+.decor-not-found{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    max-width: 865px;
+    height: 100%;
+    max-height: 840px;
+    object-fit: cover;
+}
+@media(max-width: 1280px){
+    .not-found h1{
+        font-size: 32px;
+
+    }
+    .desc-not-found{
+        font-size: 16px;
+
+    }
+}
+@media(max-width: 799px) {
+    .before-title-not-found{
+        text-align: center;
+        font-size: 16px;
+    }
+    .not-found h1{
+        text-align: center;
+
+    }
+    .desc-not-found{
+        text-align: center;
+    }
+    .button-not-found{
+        width: 100%;
+        justify-content: center;
+    }
+}
