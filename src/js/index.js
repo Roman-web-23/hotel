@@ -370,11 +370,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!el) return;
 
   const words = [
-    'Сетевые отели',
-    'Апарт-отели',
-    'Санатории',
-    'Базы отдыха',
-    'Глэмпинги'
+    'Сетевых отелей',
+    'Апарт-отелей',
+    'Санаториев',
+    'Баз отдыха',
+    'Глэмпингов'
   ];
 
   let wordIndex = 0;
@@ -465,6 +465,33 @@ const swiper_interview = new Swiper('.swiper-interview', {
         // when window width is >= 640px
         1279: {
             slidesPerView: 2,
+            spaceBetween: 32
+        }
+    }
+});
+const swiper_gallery_events = new Swiper('.swiper-gallery-events', {
+    // Optional parameters,
+    loop: true,
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.next-gallery-event',
+        prevEl: '.prev-gallery-event',
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 24
+        },
+        // when window width is >= 480px
+        799: {
+            slidesPerView: 3,
+            spaceBetween: 32
+        },
+        // when window width is >= 640px
+        1279: {
+            slidesPerView: 5,
             spaceBetween: 32
         }
     }

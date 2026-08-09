@@ -36,7 +36,7 @@
     border-radius: 8px;
 }
 .title-item-news-blog{
-    font-size: 20px;
+    font-size: 24px;
     line-height: 130%;
     letter-spacing: -0.03em;
     color: rgba(0, 0, 0, 1);
@@ -44,7 +44,7 @@
     transition: all .3s linear;
 }
 .desc-item-news-blog{
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 16px;
     overflow: hidden;
     display: -webkit-box;
@@ -116,6 +116,7 @@
     color: rgba(124, 22, 28, 1);
     font-family: "geometria";
     flex-shrink: 0;
+    font-size: 16px;
     &.active{
         color: #fff;
         background-color:rgba(124, 22, 28, 1);
@@ -185,7 +186,7 @@
 }
 .count-news{
     color: rgba(0, 0, 0, 0.25);
-    font-size: 14px;
+    font-size: 16px;
     font-family: "DinPro_medium";
     span{
         color: rgba(124, 22, 28, 1);
@@ -228,6 +229,12 @@
             color: rgba(124, 22, 28, 1);
         }
     }
+}
+.page-blog{
+    background-color: #fff;
+}
+.button-more-news{
+    font-size: 16px;
 }
 @media(max-width: 1280px){
     .blog-section{
