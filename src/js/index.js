@@ -101,7 +101,9 @@ var swiper3 = new Swiper(".swiper-awards", {
 const swiper4 = new Swiper('.swiper-reviews-analitic-person', {
     // Optional parameters,
     loop: true,
-
+    autoplay: {
+        delay: 5000,
+      },
     // Navigation arrows
     navigation: {
         nextEl: '.next-reviews',
@@ -495,4 +497,18 @@ const swiper_gallery_events = new Swiper('.swiper-gallery-events', {
             spaceBetween: 32
         }
     }
+});
+
+
+const swiper_blog_singles = new Swiper('.swiper-blog-single', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // Navigation arrows
+    navigation: {
+        nextEl: '.button-single-blog-slide.next',
+        prevEl: '.button-single-blog-slide.prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+      },
 });
